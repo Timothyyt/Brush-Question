@@ -125,7 +125,7 @@ public class ConnectingGraph {
 ```
 
 # Complexity Analysis
-**Time Complexity**: <br/> Union: O(1) <br/> find: O(1) <br/> https://en.wikipedia.org/wiki/Iterated_logarithm
+**Time Complexity**: <br/> Union: O(log *n) ==> O(1) https://en.wikipedia.org/wiki/Iterated_logarithm <br/><br/> find: O(1) <br/> 
 
 # Follow up
 Lintcode 590: https://github.com/Timothyyt/Brush-Question/blob/master/Lintcode%20590.%20Connecting%20Graph%20II.md
