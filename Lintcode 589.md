@@ -129,4 +129,5 @@ public class ConnectingGraph {
 
 # Follow up
 Lintcode 590: https://github.com/Timothyyt/Brush-Question/blob/master/Lintcode%20590.%20Connecting%20Graph%20II.md
+Lintcode 591: https://github.com/Timothyyt/Brush-Question/blob/master/591.%20Connecting%20Graph%20III.md
 
