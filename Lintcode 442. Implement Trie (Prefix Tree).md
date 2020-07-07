@@ -141,7 +141,7 @@ public class Trie {
 # Complexity Analysis
 **Time Complexity**: <br/> insert: The length of word inserted. <br/> search: The length of word searched <br/> startWith: The length of prefix
 
-**Space Complexity**: Given the length of longest word in the dictionary as m, Trie is a tree with a maximum height of m. Given the number of words as w, the worst case space complexity will be O(w * m).Since words might share the same prefix, the space used in practice might be much less than the worst case scenario.
+**Space Complexity**: Given the total number of letters of words added as n, in the worst case where there is no common prefix, the space complexity will be O(n). Whenever common prefix exists, the space complexity will be lower.
 
 # Follow Up
 
