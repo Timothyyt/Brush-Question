@@ -134,4 +134,4 @@ public class WordDictionary {
 
 # Complexity Analysis
 **Time Complexity**: <br/> addWord: given the length of word added as m, the time complexity of addWord is O(m) <br/> search: given the length of word searched is m, the worst case scenario time complexity will be 26 ** m. This will happen when only using '.' to search, say search('...') <br/><br/>
-**Space Complexity**: Given the total number of letters of the words added is n, the space complexity will be O(n).
+**Space Complexity**: Given the total number of letters of words added as n, in the worst case where there is no common prefix, the space complexity will be O(n). Whenever common prefix exists, the space complexity will be lower.
