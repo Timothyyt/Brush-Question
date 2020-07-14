@@ -161,5 +161,4 @@ public class Solution {
 **Space Complexity**: After using rolling array, the f[] space compelxity can be optiized to O(1). Since there is a charArray sc, the overall space complextiy is still O(n). Can use String.charAt to furthur optimize it.
 
 # Follow Up
-https://github.com/Timothyyt/Brush-Question/new/master/DP
-
+https://github.com/Timothyyt/Brush-Question/blob/master/DP/Lintcode%20676.%20Decode%20Ways%20II.md
