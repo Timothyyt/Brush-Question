@@ -158,7 +158,8 @@ public class Solution {
 # Complexity Analysis
 **Time Complexity**: given number of digits as n, the tiem complexity is O(n)
 
-**Space Complexity**: After using rolling array, the space compelxity can be optiized to O(1)
+**Space Complexity**: After using rolling array, the f[] space compelxity can be optiized to O(1). Since there is a charArray sc, the overall space complextiy is still O(n). Can use String.charAt to furthur optimize it.
 
 # Follow Up
+https://github.com/Timothyyt/Brush-Question/new/master/DP
 
