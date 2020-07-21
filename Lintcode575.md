@@ -35,7 +35,7 @@ Traversing the string,
 # Difficulties:
 1. The stack needs to contain several types of elements: int, string, and char, how to achieve it?
 
-**Solution**: Use Stack<Object> stack. But do remember to cast stack.pop() to the proper type. If no cast is done, the type of stack.pop() will be  Object, resulting in imcompatile type error
+**Solution**: Store Object in stack. But do remember to cast stack.pop() to the proper type. If no cast is done, the type of stack.pop() will be  Object, resulting in imcompatile type error.<br/> https://www.geeksforgeeks.org/integer-valueof-vs-integer-parseint-with-examples/
   
 2. How to pop the elements between left and right brackets? In other words, How to stop popping when stack.peek() is a number.
 
